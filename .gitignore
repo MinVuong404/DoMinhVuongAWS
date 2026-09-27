@@ -1,0 +1,9 @@
+# Hugo build output and cache
+public/
+resources/
+.hugo_build.lock
+static/images/aws-icons/
+
+# OS generated files
+.DS_Store
+Thumbs.db
