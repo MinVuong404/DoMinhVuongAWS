@@ -22,7 +22,7 @@
     {{ $disableShortcutsTitle := .Site.Params.DisableShortcutsTitle}}
     {{with .Site.Menus.shortcuts}}
     <section id="shortcuts">
-      <h3>{{ if not $disableShortcutsTitle}}{{ T "Shortcuts-Title"}}{{ end }}</h3>
+      <h3>{{ if not $disableShortcutsTitle}}{{ T "Shortcuts-Title" | default (cond (eq $.Site.Language.Lang "vi") "Liên kết" "More") }}{{ end }}</h3>
       <ul>
         {{ range sort . "Weight"}}
         <li>

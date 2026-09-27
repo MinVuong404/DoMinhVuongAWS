@@ -17,8 +17,6 @@ home = [ "HTML", "RSS", "JSON"]
   themeVariant = "workshop"
   # Git hub repo link
   editURL = ""
-  description = "Báo cáo thực tập tốt nghiệp & Workshop Kỹ thuật Chuyên sâu: Xây dựng Hệ thống Nhận diện và Cảnh báo Email Lừa đảo 100% Serverless trên AWS"
-  author = "Đỗ Minh Vương"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
@@ -28,11 +26,14 @@ home = [ "HTML", "RSS", "JSON"]
 title = "Báo cáo thực tập :: AWS Serverless"
 weight = 1
 label = "Tiếng Việt"
+[Languages.vi.params]
+  description = "Báo cáo thực tập tốt nghiệp & Workshop Kỹ thuật Chuyên sâu: Xây dựng Hệ thống Nhận diện và Cảnh báo Email Lừa đảo 100% Serverless trên AWS"
+  author = "Đỗ Minh Vương"
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
 identifier = "AWS Study Group"
-url = "http://awsstudygroup.com"
+url = "https://awsstudygroup.com"
 weight = 20
 
 [[Languages.vi.menu.shortcuts]]
@@ -45,6 +46,9 @@ weight = 20
 title = "Internship Report :: AWS Serverless"
 weight = 2
 label = "English"
+[Languages.en.params]
+  description = "Graduation Internship Report & Advanced Technical Workshop: 100% Serverless Phishing Email Detection and Alert System on AWS"
+  author = "Do Minh Vuong"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
