@@ -15,7 +15,7 @@ This workshop provides an exhaustive, end-to-end hands-on laboratory guiding pra
 
 {{% notice info %}}
 * **Project Name:** AWS Serverless Real-time Phishing Detection & Alert System
-* **Codebase Repository:** [https://github.com/dov005/AWS-Serverless-Phishing-Detection](https://github.com/dov005/AWS-Serverless-Phishing-Detection)
+* **Codebase Repository:** [https://github.com/MinVuong404/AWS-Serverless-Phishing-Detection](https://github.com/MinVuong404/AWS-Serverless-Phishing-Detection)
 * **Architectural Paradigm:** 100% Serverless Architecture (Amazon ECR, AWS Lambda, Amazon API Gateway v2, Amazon DynamoDB, Amazon SNS, Amazon CloudWatch, AWS IAM) integrated with a Client Google Chrome Extension (Manifest V3).
 * **Deployment Region:** `ap-southeast-1` (Singapore) — minimizing latency for Asia-Pacific traffic (< 35 ms).
 * **Operational TCO:** **$0.00 USD / month** (100% covered by the AWS Free Tier lifetime and 12-month tier).

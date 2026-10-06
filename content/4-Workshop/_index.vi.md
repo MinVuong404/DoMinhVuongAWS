@@ -15,7 +15,7 @@ Chuỗi bài thực hành hướng dẫn các bước triển khai hệ thống 
 
 {{% notice info %}}
 * Tên dự án: AWS Serverless Real-time Phishing Detection and Alert System
-* Kho mã nguồn: [https://github.com/dov005/AWS-Serverless-Phishing-Detection](https://github.com/dov005/AWS-Serverless-Phishing-Detection)
+* Kho mã nguồn: [https://github.com/MinVuong404/AWS-Serverless-Phishing-Detection](https://github.com/MinVuong404/AWS-Serverless-Phishing-Detection)
 * Kiến trúc: Serverless gồm Amazon ECR, AWS Lambda, Amazon API Gateway v2, Amazon DynamoDB, Amazon SNS, Amazon CloudWatch và AWS IAM kết hợp tiện ích mở rộng Chrome Extension Manifest V3.
 * Khu vực triển khai: Khu vực Singapore ap-southeast-1 nhằm duy trì độ trễ mạng dưới 35 ms tới người dùng tại Việt Nam.
 * Chi phí vận hành: 0.00 USD mỗi tháng trong phạm vi hạn mức AWS Free Tier.
